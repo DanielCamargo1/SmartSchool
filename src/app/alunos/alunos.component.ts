@@ -8,12 +8,11 @@ import { Component, OnInit } from '@angular/core';
 export class AlunosComponent implements OnInit {
   titulo = "Alunos";
   public alunos = [ 
-  'Emily',
-  'Eduarda',
-  'Elaine',
-  'Deriky',
-  'Mark',
-  'Kadiama',
+  {id: 1, nome: 'Emily', sobrenome: 'Kadiama', telefone:34255},
+  {id: 2, nome: 'Deryk', sobrenome: 'Kadiama', telefone:3322542435},
+  {id: 3, nome: 'Ana Elisa', sobrenome: 'Kadiama', telefone:33424322255},
+  {id: 4, nome: 'Mark', sobrenome: 'Kadiama', telefone:3322542425},
+  {id: 5, nome: 'Elaine', sobrenome: 'Kadiama', telefone:33225424325},
 ];
    
 
